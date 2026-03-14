@@ -1,0 +1,257 @@
+"use client";
+
+import Image from "next/image";
+import { useEffect } from "react";
+
+export default function Home() {
+
+useEffect(() => {
+document.documentElement.style.scrollBehavior = "smooth";
+}, []);
+
+return (
+
+<main className="min-h-screen bg-black text-white cyber-grid">
+
+{/* NAVBAR */}
+
+<nav className="fixed top-0 w-full bg-black/80 backdrop-blur border-b border-green-500 z-50">
+
+<div className="max-w-6xl mx-auto flex justify-between px-6 py-4">
+
+<h1 className="text-green-400 font-bold text-lg">
+Shahul Hameed
+</h1>
+
+<div className="space-x-6 text-sm text-gray-300">
+
+<a href="#summary">Summary</a> <a href="#experience">Experience</a> <a href="#education">Education</a> <a href="#skills">Skills</a> <a href="#stack">Technology</a> <a href="#contact">Contact</a>
+
+</div>
+
+</div>
+
+</nav>
+
+<div className="max-w-6xl mx-auto px-6 pt-32">
+
+{/* HERO */}
+
+<section className="grid md:grid-cols-2 gap-12 items-center mb-24">
+
+<div>
+
+<h1 className="text-5xl font-bold text-green-400 leading-tight">
+IT Infrastructure & Network Security Specialist
+</h1>
+
+<p className="mt-4 text-gray-300">
+Senior IT Administrator • 16+ Years Experience
+</p>
+
+<p className="mt-6 text-gray-400 max-w-xl">
+CCNP Enterprise certified IT professional experienced in enterprise networking,
+firewall security, virtualization, Windows Server environments and Microsoft infrastructure.
+</p>
+
+<a
+href="/Shahul-CV.pdf"
+className="inline-block mt-6 bg-green-500 text-black px-6 py-3 rounded hover:bg-green-400 transition"
+
+>
+
+Download CV </a>
+
+</div>
+
+<div className="flex justify-center">
+
+<Image
+src="/images/profile.jpg"
+alt="profile"
+width={220}
+height={220}
+className="rounded-full border-4 border-green-500 shadow-[0_0_20px_#00ff88]"
+/>
+
+</div>
+
+</section>
+
+{/* PROFILE SUMMARY */}
+
+<section id="summary" className="mb-24">
+
+<h2 className="text-2xl text-green-400 mb-4">
+Profile Summary
+</h2>
+
+<p className="text-gray-400 max-w-3xl">
+Experienced IT Systems & Infrastructure Specialist with strong expertise in networking,
+server administration and enterprise IT infrastructure management. CCNP Enterprise certified
+with expertise in routing & switching, firewall security, VPNs and virtualization.
+</p>
+
+</section>
+
+{/* WORK EXPERIENCE */}
+
+<section id="experience" className="mb-24">
+
+<h2 className="text-2xl text-green-400 mb-6">
+Work Experience
+</h2>
+
+<div className="space-y-10 border-l border-green-500 pl-6">
+
+<div>
+<h3 className="font-semibold">
+IT Administrator — Silver Oak Properties (Dubai)
+</h3>
+<p className="text-green-400 text-sm">Nov 2022 – Present</p>
+</div>
+
+<div>
+<h3 className="font-semibold">
+IT Administrator — Trust Holdings LLC (Dubai)
+</h3>
+<p className="text-green-400 text-sm">Sep 2019 – Nov 2022</p>
+</div>
+
+<div>
+<h3 className="font-semibold">
+IT Support Engineer — Sydney Cars & Barq Systems (Qatar)
+</h3>
+<p className="text-green-400 text-sm">Jan 2013 – Sep 2018</p>
+</div>
+
+<div>
+<h3 className="font-semibold">
+IT Engineer — Mobisat IT Solution (Dubai)
+</h3>
+<p className="text-green-400 text-sm">Jun 2008 – Mar 2012</p>
+</div>
+
+</div>
+
+</section>
+
+{/* EDUCATION */}
+
+<section id="education" className="mb-24">
+
+<h2 className="text-2xl text-green-400 mb-6">
+Education
+</h2>
+
+<div className="space-y-6">
+
+<div>
+<h3 className="font-semibold">
+Master of Science – Cyber Forensics & Information Security
+</h3>
+<p className="text-gray-400">Madras University</p>
+</div>
+
+<div>
+<h3 className="font-semibold">
+Bachelor of Computer Applications
+</h3>
+<p className="text-gray-400">Alagappa University</p>
+</div>
+
+</div>
+
+</section>
+
+{/* TECHNOLOGY STACK */}
+
+<section id="stack" className="mb-24">
+
+<h2 className="text-2xl text-green-400 mb-8">
+Technology Stack
+</h2>
+
+<div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+
+<div className="tech-icon">
+<img src="/icons/cisco.png"/>
+<p>Cisco</p>
+</div>
+
+<div className="tech-icon">
+<img src="/icons/windows.png"/>
+<p>Windows Server</p>
+</div>
+
+<div className="tech-icon">
+<img src="/icons/vmware.png"/>
+<p>VMware</p>
+</div>
+
+<div className="tech-icon">
+<img src="/icons/microsoft365.png"/>
+<p>Microsoft 365</p>
+</div>
+
+<div className="tech-icon">
+<img src="/icons/network.png"/>
+<p>Networking</p>
+</div>
+
+<div className="tech-icon">
+<img src="/icons/firewall.png"/>
+<p>Firewall</p>
+</div>
+
+<div className="tech-icon">
+<img src="/icons/cloud.png"/>
+<p>Cloud</p>
+</div>
+
+<div className="tech-icon">
+<img src="/icons/security.png"/>
+<p>Security</p>
+</div>
+
+</div>
+
+</section>
+
+{/* CONTACT */}
+
+<section id="contact" className="mb-24">
+
+<h2 className="text-2xl text-green-400 mb-4">
+Contact
+</h2>
+
+<p className="text-gray-400">
+Dubai, United Arab Emirates
+</p>
+
+<p className="text-gray-400">
+Email: mt.shahul@gmail.com
+</p>
+
+<p className="text-gray-400">
+Phone: +971 566461253
+</p>
+
+<p className="text-green-400 mt-2">
+LinkedIn: linkedin.com/in/shahul86
+</p>
+
+</section>
+
+<footer className="border-t border-green-500 pt-6 text-center text-gray-500">
+© 2026 Shahul Hameed
+</footer>
+
+</div>
+
+</main>
+
+);
+
+}

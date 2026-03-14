@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+body{
+background:#020202;
+color:white;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+/* cyber grid background */
+
+.cyber-grid{
+background-color:#000;
+background-image:
+linear-gradient(rgba(0,255,120,0.08) 1px, transparent 1px),
+linear-gradient(90deg, rgba(0,255,120,0.08) 1px, transparent 1px);
+background-size:40px 40px;
+}
+
+/* technology icons */
+
+.tech-icon{
+padding:20px;
+border:1px solid #00ff88;
+border-radius:10px;
+transition:0.3s;
+}
+
+.tech-icon img{
+height:40px;
+margin:auto;
+margin-bottom:10px;
+}
+
+.tech-icon:hover{
+transform:translateY(-5px);
+box-shadow:0 0 15px #00ff88;
+}
+
+.highlight-box{
+border:1px solid #00ff88;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.highlight-box:hover{
+transform:translateY(-5px);
+box-shadow:0 0 15px #00ff88;
+}
+
+.tech-box{
+border:1px solid #00ff88;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.tech-box:hover{
+transform:translateY(-6px);
+box-shadow:0 0 15px #00ff88;
+}
+
+.tech-img{
+height:40px;
+margin:auto;
+margin-bottom:10px;
+}
