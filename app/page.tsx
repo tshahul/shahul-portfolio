@@ -62,12 +62,11 @@ IT Infrastructure & Network Security Specialist
 </h1>
 
 <p className="mt-4 text-gray-300">
-Senior IT Administrator • 16+ Years Experience
+Senior IT Administrator • 13+ Years Experience
 </p>
 
 <p className="mt-6 text-gray-400 max-w-xl">
-CCNP Enterprise certified IT professional experienced in enterprise networking,
-firewall security, virtualization, Windows Server environments and Microsoft infrastructure.
+IT Systems Administrator | CCNP Enterprise Certified | MSc Cyber Forensics & Information Security | Network & Infrastructure Management
 </p>
 
 {/* BUTTONS */}
@@ -92,7 +91,7 @@ LinkedIn
 </a>
 
 <a
-href="https://instagram.com/yourusername"
+href="https://instagram.com/shahul_info"
 target="_blank"
 className="flex items-center gap-2 border border-green-500 px-5 py-3 rounded text-green-400 hover:bg-green-500 hover:text-black transition"
 >
@@ -137,9 +136,15 @@ Profile Summary
 </h2>
 
 <p className="text-gray-400 max-w-3xl">
-Experienced IT Systems & Infrastructure Specialist with strong expertise in networking,
-server administration and enterprise IT infrastructure management. CCNP Enterprise certified
-with expertise in routing & switching, firewall security, VPNs and virtualization.
+Experienced IT Systems & Infrastructure Specialist with 10+ years of hands-on experience in networking, server administration, and enterprise IT infrastructure management. CCNP Enterprise certified, with strong expertise in routing and switching, firewalls, VPNs, network security, and multi-site connectivity.
+
+Proven experience in managing Windows Server environments, Active Directory, site-to-site VPNs, cloud and on-prem infrastructure, and IT operations across distributed locations. Skilled in network troubleshooting, system monitoring, backup management, disaster recovery, and incident response.
+
+Currently pursuing MSc in Cyber Forensics and Information Security (Madras University – online) to further strengthen expertise in cybersecurity, threat analysis, digital forensics, and security incident handling.
+
+Hands-on experience with IT infrastructure automation, CRM systems, Google Workspace, AWS cloud services, and WhatsApp automation/chatbots using n8n workflows, supporting business operations and digital transformation initiatives.
+
+Actively seeking challenging roles in IT Infrastructure, Network Engineering, Systems Administration, or Cybersecurity Operations, where strong technical skills, problem-solving ability, and operational excellence can add measurable value
 </p>
 
 </section>
@@ -239,7 +244,12 @@ Bachelor of Computer Applications
 </h3>
 <p className="text-gray-400">Alagappa University</p>
 </div>
-
+<div>
+<h3 className="font-semibold">
+Diploma in Computer Engineering
+</h3>
+<p className="text-gray-400">Directorate Of Technical Education</p>
+</div>
 </div>
 
 </section>
