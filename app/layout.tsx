@@ -1,5 +1,5 @@
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/react";
 export const metadata = {
 title: "Shahul Hameed Portfolio",
 description: "IT Infrastructure & Network Security Specialist",
